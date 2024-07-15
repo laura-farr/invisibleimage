@@ -1,18 +1,10 @@
-
 <!DOCTYPE html>
 <html>
 <head>
   <title>Invisible Tracker</title>
-  <script>
-    // Make a request to the Google Apps Script URL
-    fetch('https://script.google.com/a/macros/edreamsodigeo.com/s/AKfycbzIlAODBhVrCVZ6AWD4jCn_6N-0NfM0ycRPzvFklSOev0rYfmgJ2Q9-ovtnD-v3xAo5/exec', {
-      mode: 'cors'
-    })
-      .then(response => response.json())
-      .then(data => console.log('Logged:', data))
-      .catch(error => console.error('Error:', error));
-  </script>
 </head>
 <body>
+  <!-- Small invisible image to trigger Google Apps Script -->
+  <img src="https://script.google.com/a/macros/edreamsodigeo.com/s/AKfycbzIlAODBhVrCVZ6AWD4jCn_6N-0NfM0ycRPzvFklSOev0rYfmgJ2Q9-ovtnD-v3xAo5/exec" style="width:1px; height:1px;" alt="">
 </body>
 </html>
